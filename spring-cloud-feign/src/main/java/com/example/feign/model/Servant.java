@@ -1,4 +1,4 @@
-package com.example.ribbon.model;
+package com.example.feign.model;
 
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;

@@ -10,7 +10,7 @@ import org.springframework.web.client.RestTemplate;
 public class RestConfiguration {
 
     @Bean
-    @LoadBalanced
+//    @LoadBalanced
     public RestTemplate createRestApi() {
         return new RestTemplate(new OkHttp3ClientHttpRequestFactory());
     }
